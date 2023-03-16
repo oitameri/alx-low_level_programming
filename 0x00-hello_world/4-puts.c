@@ -1,8 +1,9 @@
 #include <stdio.h>
-/*
+/**
  * using the function puts
  *
- * */
+ * Return: Always 0 (Success)
+ */
 
 int main(void)
 {
