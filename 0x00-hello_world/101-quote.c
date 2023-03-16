@@ -2,6 +2,8 @@
 #include <unistd.h>
 /**
  * main - Entry point
+ * 
+ * Description: UNIX simplicity
  *
  * Return 1 (Success)
  */
