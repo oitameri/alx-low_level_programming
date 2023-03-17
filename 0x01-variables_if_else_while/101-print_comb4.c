@@ -5,9 +5,10 @@
  * Return: Always 0 (success)
  */
 
-int main(void){
-        int i;
-        int j;
+int main(void)
+{
+	int i;
+	int j;
 	int k;
 
 	i = 0;
@@ -34,5 +35,5 @@ int main(void){
 		i++;
 	}
 	putchar('\n');
-        return (0);
+	return (0);
 }
