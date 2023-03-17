@@ -20,7 +20,7 @@ void trimleadingandTrailing(char *s)
 	s[j] = '\0';
 	for(i = 0;s[i] != '\0'; i++)
 	{
-		if(s[i]! = ' ' && s[i] != '\t')
+		if(s[i] != ' ' && s[i] != '\t')
 				j=i;
 	}
 	s[j+1] = '\0';
