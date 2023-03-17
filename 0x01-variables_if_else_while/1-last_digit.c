@@ -5,6 +5,7 @@
  * main - Entry point
  *
  * Decription: 'the last digit'
+ * @parameter: trimleadingandTrailing
  *
  * Return: Always 0 (success)
  */
@@ -13,7 +14,8 @@ void trimleadingandTrailing(char *s)
 {
 	int  i, j;
 
-	for (i = 0; s[i] == ' '  || s[i] == '\t'; i++);
+	for (i = 0; s[i] == ' '  || s[i] == '\t';) 
+			i++;
 
 	for (j = 0; s[i]; i++)
 	{
