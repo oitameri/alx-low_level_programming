@@ -2,9 +2,12 @@
 #include <stdlib.h>
 /*
  * main - Entry point
- *Description: insomnia alphabetic game
+ *
+ * Description: insomnia alphabetic game
+ *
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
 	char c;
