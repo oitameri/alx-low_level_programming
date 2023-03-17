@@ -14,7 +14,7 @@ int main(void)
 	while (i <= 98)
 	{
 		j = i + 1;
-		while (j <= 98)
+		while (j <= 99)
 		{	putchar(i / 10 + 48);
 			putchar(i % 10 + 48);
 			putchar(' ');
