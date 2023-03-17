@@ -1,10 +1,9 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/*
+/**
  * main - Entry point
- *
  * Decription: 'the last digit'
- *
  * Return: Always 0 (success)
  */
 
