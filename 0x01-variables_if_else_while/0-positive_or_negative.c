@@ -5,6 +5,7 @@
  * main - Entry point
  *
  * Description: 'Positive anything > negative nothing'
+ */
 int main(void)
 {
 	int n;
