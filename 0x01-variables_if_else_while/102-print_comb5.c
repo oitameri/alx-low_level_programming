@@ -7,13 +7,13 @@
 
 int main(void)
 {
-        int i;
-        int j;
+	int i;
+	int j;
 
 	i = 0;
 	while (i <= 98)
 	{
-		j = i +1;
+		j = i + 1;
 		while (j <= 98)
 		{	putchar(i / 10 + 48);
 			putchar(i % 10 + 48);
@@ -26,10 +26,9 @@ int main(void)
 				putchar(' ');
 			}
 			j++;
-			
 		}
 		i++;
 	}
 	putchar('\n');
-        return (0);
+	return (0);
 }
