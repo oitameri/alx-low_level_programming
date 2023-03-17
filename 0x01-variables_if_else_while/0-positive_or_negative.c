@@ -5,6 +5,8 @@
  * main - Entry point
  *
  * Description: 'Positive anything > negative nothing'
+ *
+ * return: Always 0 (success)
  */
 int main(void)
 {
