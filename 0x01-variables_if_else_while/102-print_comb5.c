@@ -9,28 +9,24 @@ int main(void)
 {
         int i;
         int j;
-	int k;
 
 	i = 0;
-	while (i <= 7)
+	while (i <= 98)
 	{
 		j = i +1;
-		while (j <= 8)
-		{
-			k = j + 1;
-			while (k <= 9)
+		while (j <= 98)
+		{	putchar(i / 10 + 48);
+			putchar(i % 10 + 48);
+			putchar(' ');
+			putchar(j / 10 + 48);
+			putchar(j % 10 + 48);
+			if (i < 98)
 			{
-				putchar(i + 48);
-				putchar(j + 48);
-				putchar(k + 48);
-				if (i < 7)
-				{
-					putchar(',');
-					putchar(' ');
-				}
-				k++;
+				putchar(',');
+				putchar(' ');
 			}
 			j++;
+			
 		}
 		i++;
 	}
