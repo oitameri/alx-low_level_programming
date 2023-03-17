@@ -18,7 +18,8 @@ int main(void)
 			j++;
 		}
 	while
-		(c <= 'f'){
+		(i <= 'f')
+		{
 			putchar(i);
 			i++;
 		}
