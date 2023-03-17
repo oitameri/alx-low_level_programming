@@ -18,7 +18,7 @@ void trimleadingandTrailing(char *s)
 		s[j++] = s[i];
 	}
 	s[j] = '\0';
-	for(i = 0;s[i]! = '\0'; i++)
+	for(i = 0;s[i] != '\0'; i++)
 	{
 		if(s[i]! = ' ' && s[i] != '\t')
 				j=i;
