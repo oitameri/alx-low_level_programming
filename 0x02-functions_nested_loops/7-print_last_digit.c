@@ -2,7 +2,7 @@
 
 /**
  * print_lst_digit - outout last digit of a no
- * Description: colors numbers and notes
+ * Description: print last digit of a number
  * @n: number to be treated
  * Return: Last digit of a number
  */
