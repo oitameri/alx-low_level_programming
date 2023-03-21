@@ -2,13 +2,13 @@
 
 /**
  * main - Entry point
- * 
- * Retur: Always 0 (Success)
+ * Description: alphabet game
+ * Retur: Always 0
  */
 
 int main(void)
 {
 
 	print_alphabet();
-	return(0);
+	return (0);
 }
