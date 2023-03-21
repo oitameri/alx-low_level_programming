@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ * main - check the code
  * Description: alphabet game
- * Retur: Always 0
+ * Retur: Always 0.
  */
 
 int main(void)
