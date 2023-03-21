@@ -5,7 +5,6 @@
  * main - sum of multiples of 3, 5 to 1024
  * Description: natural numbers
  * return: Always 0 (success)
- *
  */
 
 int main(void)
@@ -21,6 +20,6 @@ int main(void)
 	}
 	x++;
 	}
-	printf("%d\n ", y);
+	printf(" %d\n ", y);
 	return (0);
 }
