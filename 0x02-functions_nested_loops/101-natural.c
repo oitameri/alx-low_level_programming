@@ -9,16 +9,17 @@
 int main(void)
 {
 
-	int x, y = 0;
+	int x;
+	int sum;
+	sum = 0;
 
-	while (x < 1024)
+	for (i = 0; i < 10; i++)
 	{
-	if ((x % 3 == 0) || (y % 5 == 0))
+	if ((i % 3 == 0) || (i 5 % ==0))
 	{
-	y += x;
+	sum = sum + i;
 	}
-	x++;
-	}
-	printf("%d\n", y);
+	printf("%d\n", sum);
 	return (0);
+	}
 }
