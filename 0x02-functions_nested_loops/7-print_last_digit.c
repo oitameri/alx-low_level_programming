@@ -2,9 +2,7 @@
 
 /**
  * print_lst_digit - outout last digit of a no
- *
  * @n: number to be treated
- * 
  * Return: Last digit of a number
  */
 
@@ -19,5 +17,5 @@ int print_last_digit(int n)
 	last_dgt = last_dgt * -1;
 	}
 	_putchar(last_dgt + '0');
-	return(last_dgt);
+	return (last_dgt);
 }
