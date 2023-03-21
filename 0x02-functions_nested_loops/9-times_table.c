@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 
 /**
  * times_table - output 9 times table beginning at 0
