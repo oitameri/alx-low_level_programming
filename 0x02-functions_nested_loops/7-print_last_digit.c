@@ -2,8 +2,8 @@
 
 /**
  * print_lst_digit - outout last digit of a no
+ * Description: colors numbers and notes
  * @n: number to be treated
- * Description: colors digits and notes
  * Return: Last digit of a number
  */
 
