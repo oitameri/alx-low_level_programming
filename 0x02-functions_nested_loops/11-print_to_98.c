@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 
 /**
  * print_to_98 - all numbers sequentially to 98 max
