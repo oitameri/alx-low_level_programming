@@ -10,16 +10,16 @@ int main(void)
 {
 
 	int i;
-	int sum;
-	sum = 0;
+	int s;
+	s = 0;
 
 	for (i = 0; i < 10; i++)
 	{
-	if ((i % 3 == 0) || (i 5 % ==0))
+	if ((i % 3 == 0) || (i % 5 ==0))
 	{
-	sum = sum + i;
+	s = s + i;
 	}
-	printf("%d\n", sum);
+	printf("%d\n", s);
 	return (0);
 	}
 }
