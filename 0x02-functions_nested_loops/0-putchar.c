@@ -2,8 +2,8 @@
 
 /**
  * main - Entry point
- * 
- * Retur: Always 0 (Success)
+ * Description: outputting putchr
+ * Return: Always 0 (Success)
  */
 
 int main(void)
@@ -18,5 +18,5 @@ int main(void)
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
-	return(0);
+	return (0);
 }
