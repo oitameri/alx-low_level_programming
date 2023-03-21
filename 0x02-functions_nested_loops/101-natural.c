@@ -15,11 +15,11 @@ int main(void)
 
 	for (i = 0; i < 10; i++)
 	{
-	if ((i % 3 == 0) || (i % 5 ==0))
-	{
-	s = s + i;
+		if ((i % 3 == 0) || (i % 5 ==0))
+		{
+			s = s + i;
+		}
 	}
 	printf("%d\n", s);
 	return (0);
-	}
 }
