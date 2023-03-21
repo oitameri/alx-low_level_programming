@@ -2,8 +2,10 @@
 
 /**
  * main - Entry point
- * Description: print sign of a no
+ *
+ * Description: print_sign of a no
  * @n: Number to be checked
+ * 
  * Return: -1 for negative number, 1 for positive number and 0 for any other
  */
 
