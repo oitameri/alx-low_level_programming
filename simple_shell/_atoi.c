@@ -36,7 +36,7 @@ int _isalpha(int c)
 	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
 		return (1);
 	else
-	return (0);
+		return (0);
 }
 
 /**
@@ -52,7 +52,7 @@ int _atoi(char *s)
 
 	for (i = 0; s[i] != '\0' && flag != 2; i++)
 	{
-	if (s[i] == '-')
+		if (s[i] == '-')
 		sign *= -1;
 
 		if (s[i] >= '0' && s[i] <= '9')

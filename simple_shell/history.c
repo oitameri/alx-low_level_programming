@@ -65,7 +65,7 @@ int read_history(info_t *info)
 	ssize_t fd, rdlen, fsize = 0;
 	struct stat st;
 	char *buf = NULL, *filename = get_history_file(info);
-	
+
 	if (!filename)
 		return (0);
 
@@ -133,7 +133,7 @@ int renumber_history(info_t *info)
 {
 	list_t *node = info->history;
 	int i = 0;
-	
+
 	while (node)
 	{
 		node->num = i++;
